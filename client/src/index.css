@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.card-container {
+  padding: 30px;
+  background-color: #fff;
+  width: 300px;
+  box-shadow: 0 4px 10px 1px rgba(204,211,217,.6);
+  border-radius: 4px;
+  margin: 10px;
+  list-style-type: none;
+  position: relative;
+}
+.card-name span {
+  margin-right: 4px;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #effead;
+  border-radius: 50%;
+}
+.card-name strong {
+  text-transform: uppercase;
+}
+
+.card-container time {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #8d9295;
+  color: #fff;
+  padding: 4px 18px;
+  border-radius: 4px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+.hidden {
+  display: none;
+}
